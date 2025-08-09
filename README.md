@@ -9,7 +9,7 @@ A Model Context Protocol (MCP) server that automatically generates Anki flashcar
 - **Educators**: Quickly create quiz content from lesson plans
 - **Researchers**: Convert paper summaries and key concepts into study materials
 
-## ✨ Features
+## Features
 
 - **Notion Integration**: Extracts content from Notion pages via official API
 - **Smart Parsing**: Recognizes toggle blocks as question-answer pairs
@@ -17,7 +17,7 @@ A Model Context Protocol (MCP) server that automatically generates Anki flashcar
 - **Real-time Import**: Automatically adds cards to Anki via AnkiConnect
 - **MCP Protocol**: Works with MCP-compatible clients like Claude Desktop
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before setting up this project, ensure you have:
 
@@ -38,7 +38,7 @@ Before setting up this project, ensure you have:
    - Python 3.8 or higher
    - pip package manager
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -67,7 +67,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 python server.py
 ```
 
-## 📖 How to Structure Your Notion Pages
+## How to Structure Your Notion Pages
 
 For the tool to work effectively, structure your Notion pages as follows:
 
@@ -97,7 +97,7 @@ Within toggle blocks, the tool supports:
 - Numbered lists
 - Basic formatting (bold, italic, etc.)
 
-## 🛠️ Usage
+## Usage
 
 ### Via MCP Client (Recommended)
 1. Configure your MCP client to connect to this server
@@ -129,7 +129,7 @@ async def create_flashcards(page_name):
 asyncio.run(create_flashcards("Your Page Name"))
 ```
 
-## 🔧 API Reference
+## API Reference
 
 ### MCP Tools
 
@@ -187,7 +187,7 @@ Creates Anki flashcards from extracted content.
 }
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -218,7 +218,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -226,11 +226,11 @@ logging.basicConfig(level=logging.DEBUG)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Notion API](https://developers.notion.com/) for excellent documentation
 - [AnkiConnect](https://github.com/FooSoft/anki-connect) for Anki integration
