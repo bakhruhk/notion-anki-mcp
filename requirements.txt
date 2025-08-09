@@ -1,0 +1,11 @@
+# MCP Server Framework
+mcp>=1.0.0
+
+# Notion API Integration  
+notion-client>=2.0.0
+
+# OpenAI API Integration
+openai>=1.0.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
