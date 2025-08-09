@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that automatically generates Anki flashcards from Notion pages. This tool extracts questions and answers from Notion toggle blocks and converts them into structured Anki cards using OpenAI's API, with real-time import via AnkiConnect.
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Students**: Convert study notes from Notion into flashcards for spaced repetition
 - **Professionals**: Transform training materials and documentation into memorable cards
